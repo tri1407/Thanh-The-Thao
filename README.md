@@ -33,13 +33,13 @@ Trang web chia thành 2 phần chính:
 
 ## 📁 Cấu trúc thư mục
 
-```bash
+~~~bash
 thanh-the-thao/
 ├── index.html           # Trang chính
 ├── style.css            # Giao diện
 ├── thanh-the-thao.png   # Ảnh đại diện của Thành Thể Thao
 └── README.md            # Tập tin giới thiệu dự án
-
+~~~
 ## ▶️ Chạy chương trình
 
 Bạn có Thể chạy chương trình mà không cần phải cài gì cả 👉[Chạy chương trình tại đây](https://tri1407.github.io/Thanh-The-Thao/)
