@@ -29,7 +29,8 @@ Dự án được xây dựng như một hồ sơ cá nhân hiện đại, đẹ
 Trang web chia thành 2 phần chính:
 
 1. **Giới thiệu** – Tiểu sử, phong cách sống, thành tựu của Thành Thể Thao.
-2. **Tình hình hiện tại** – Cập nhật tình hình sức khỏe và lời động viên.
+2. **Tình hình** – Cập nhật tình hình sức khỏe và lời động viên.
+3. **Tri ân** - Lời nhắn gửi cho Thành Thể Thao.
 
 ## 📁 Cấu trúc thư mục
 
