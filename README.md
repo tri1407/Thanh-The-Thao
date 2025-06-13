@@ -36,5 +36,6 @@ Trang web chia thành 2 phần chính:
 ```bash
 thanh-the-thao/
 ├── index.html           # Trang chính
+├── style.css            # Giao diện
 ├── thanh-the-thao.png   # Ảnh đại diện của Thành Thể Thao
 └── README.md            # Tập tin giới thiệu dự án
