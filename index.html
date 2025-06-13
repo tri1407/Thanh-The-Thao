@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thành Thể Thao</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>Thành Thể Thao</h1>
+    <p>Biểu tượng thể lực – Người đàn ông thép</p>
+  </header>
+
+  <div class="tabs">
+    <button class="tab-button active" onclick="showTab('intro')">Giới thiệu</button>
+    <button class="tab-button" onclick="showTab('status')">Tình hình</button>
+    <button class="tab-button" onclick="showTab('gratitude')">Tri ân</button>
+  </div>
+
+  <div id="intro" class="content active">
+    <img src="thanh-the-thao.png" alt="Ảnh Thành Thể Thao" class="profile-img">
+    <div class="card">
+      <h2>Về Thành Thể Thao</h2>
+      <p><strong>Thành Thể Thao</strong> là hình mẫu của một người đàn ông chính trực, mạnh mẽ, sống lành mạnh và đam mê thể thao.</p>
+      <p>Với kinh nghiệm nhiều năm rèn luyện thể chất và phong cách sống kỷ luật, anh là niềm cảm hứng cho cả gia đình và bạn bè. Không chỉ giỏi chơi thể thao mà anh còn bình tĩnh, bản lĩnh, và luôn là người đứng ra xử lý trong mọi tình huống.</p>
+    </div>
+  </div>
+
+  <div id="status" class="content">
+    <img src="thanh-the-thao.png" alt="Ảnh Thành đang điều trị" class="profile-img">
+    <div class="card">
+      <h2>Tình hình hiện tại</h2>
+      <p>Hiện tại, Thành Thể Thao đang tạm nghỉ thi đấu do <strong>viêm bể thận</strong> và đang được điều trị tại bệnh viện.</p>
+      <p>Tuy vậy, tinh thần của anh vẫn luôn vững vàng và kiên cường. Anh không than phiền, không nản chí – vẫn giữ nụ cười nhẹ nhàng và phong thái điềm tĩnh quen thuộc.</p>
+      <p>Gia đình và bạn bè đều gửi lời chúc mau khỏe đến người chiến binh thép – sớm trở lại sân cỏ, sân cầu, và cuộc sống năng động thường nhật.</p>
+    </div>
+  </div>
+  <div id="gratitude" class="content">
+    <img src="thanh-the-thao.png" alt="Ảnh Thành Thể Thao nâng cúp" class="profile-img">
+    <div class="card">
+      <h2>Kính gửi Thành Thể Thao</h2>
+      <p>Trong những năm qua, Thành là người có công lao lớn trong việc dựng xây tổ ấm gia đình</p>
+      <p>🎉🎉Chúc Thành có nhiều sức khỏe để ở bên gia đình và bạn bè</p>
+    </div>
+  </div>
+  <footer>
+    © 2025 Thành Thể Thao. Kiên cường vượt mọi thử thách.
+  </footer>
+
+  <script>
+    function showTab(id) {
+      document.querySelectorAll('.tab-button').forEach(btn => btn.classList.remove('active'));
+      document.querySelectorAll('.content').forEach(div => div.classList.remove('active'));
+      document.querySelector('.tab-button[onclick*="' + id + '"]').classList.add('active');
+      document.getElementById(id).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
