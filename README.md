@@ -42,4 +42,4 @@ thanh-the-thao/
 ~~~
 ## ▶️ Vào trang web
 
-Bạn có Thể vào trang web mà không cần phải cài gì cả 👉[Vào trang web tại đây](https://tri1407.github.io/Thanh-The-Thao/)
+Bạn có thể vào trang web mà không cần phải cài gì cả 👉[Vào trang web tại đây](https://tri1407.github.io/Thanh-The-Thao/)
