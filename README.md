@@ -40,6 +40,6 @@ thanh-the-thao/
 ├── thanh-the-thao.png   # Ảnh đại diện của Thành Thể Thao
 └── README.md            # Tập tin giới thiệu dự án
 ~~~
-## ▶️ Chạy chương trình
+## ▶️ Vào trang web
 
-Bạn có Thể chạy chương trình mà không cần phải cài gì cả 👉[Chạy chương trình tại đây](https://tri1407.github.io/Thanh-The-Thao/)
+Bạn có Thể vào trang web mà không cần phải cài gì cả 👉[Vào trang web tại đây](https://tri1407.github.io/Thanh-The-Thao/)
